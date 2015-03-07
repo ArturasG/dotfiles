@@ -1,0 +1,17 @@
+{
+   "content_scripts": [ {
+      "js": [ "jquery-min.js", "tooltip.js", "flair.js" ],
+      "matches": [ "http://*.reddit.com/*", "http://www.reddit.com/*", "https://*.reddit.com/*", "https://www.reddit.com/*" ]
+   } ],
+   "description": "The official /r/Diablo extension. Loads Blizzard's tooltip script on r/Diablo (only targets Battle.net links).",
+   "icons": {
+      "128": "icon128.png",
+      "48": "icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCv//oXnpXCZBKpXMVJXGnycUFTAnwlgZuWwu8q0uy4hPspZVHUn7OIbHTk1moqOBPT133uOnkSP2awzrnx+L3gMcWdkvQjyiSl/CLdYF6RzX45J2qsVp4cQ39uo5kpPCSDOXFJyXqtDgAeqsRxfoZ1CnwYhNQaRKwviY0zQH+0FwIDAQAB",
+   "manifest_version": 2,
+   "name": "The Official /r/Diablo Extension",
+   "permissions": [ "tabs", "http://*.reddit.com/*", "http://www.reddit.com/*", "https://*.reddit.com/*", "https://www.reddit.com/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.1"
+}
