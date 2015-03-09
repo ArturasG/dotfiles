@@ -18,7 +18,9 @@ Plugin 'tpopo/vim-fugitive'
 Plugin 'bling/vim-airline'
 Plugin 'chriskempson/base16-vim'
 
-Plugin 'LaTeX-BoX-Team/LaTeX-BoX'
+Plugin 'scrooloose/syntastic'
+
+"Plugin 'LaTeX-BoX-Team/LaTeX-BoX'
 
 Plugin 'altercation/vim-colors-solarized'
 
@@ -144,5 +146,15 @@ set bg=dark
 colorscheme solarized
 set t_Co=256
 
+
+" Syntastic stuff
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 
 
