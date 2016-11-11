@@ -13,7 +13,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 Plugin 'tpope/vim-surround'
-Plugin 'tpopo/vim-fugitive'
+Plugin 'tpope/vim-fugitive'
 
 Plugin 'bling/vim-airline'
 Plugin 'chriskempson/base16-vim'
@@ -22,7 +22,7 @@ Plugin 'scrooloose/syntastic'
 
 "Plugin 'LaTeX-BoX-Team/LaTeX-BoX'
 
-Plugin 'altercation/vim-colors-solarized'
+"Plugin 'altercation/vim-colors-solarized'
 
 call vundle#end()
 
@@ -143,7 +143,7 @@ highlight ColorColumn ctermbg=233
 let g:solarized_termcolors=256
 
 set bg=dark
-colorscheme solarized
+colorscheme base16-monokai
 set t_Co=256
 
 
