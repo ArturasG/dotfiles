@@ -20,6 +20,8 @@ Plugin 'chriskempson/base16-vim'
 
 Plugin 'scrooloose/syntastic'
 
+Plugin 'lervag/vimtex'
+
 "Plugin 'LaTeX-BoX-Team/LaTeX-BoX'
 
 "Plugin 'altercation/vim-colors-solarized'
@@ -157,4 +159,6 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
-
+" Latex Suite stuff
+let g:tex_flavor='latex'
+"let iskeyword+=:
