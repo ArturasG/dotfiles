@@ -22,9 +22,8 @@ Plugin 'scrooloose/syntastic'
 
 Plugin 'lervag/vimtex'
 
-"Plugin 'LaTeX-BoX-Team/LaTeX-BoX'
-
-"Plugin 'altercation/vim-colors-solarized'
+Plugin 'SirVer/ultisnips'
+Plugin 'honza/vim-snippets'
 
 call vundle#end()
 
@@ -162,3 +161,12 @@ let g:syntastic_check_on_wq = 0
 " Latex Suite stuff
 let g:tex_flavor='latex'
 "let iskeyword+=:
+
+" Ultisnips Stuff
+" Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
+let g:UltiSnipsExpandTrigger="<C-tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+" If you want :UltiSnipsEdit to split your window.
+let g:UltiSnipsEditSplit="vertical"
