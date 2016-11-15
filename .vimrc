@@ -141,7 +141,7 @@ set colorcolumn=80
 highlight ColorColumn ctermbg=233
 
 " Colorscheme
-let g:solarized_termcolors=256
+"let g:solarized_termcolors=256
 
 set bg=dark
 colorscheme base16-monokai
