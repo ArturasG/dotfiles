@@ -1,42 +1,135 @@
-#define base00 #272822
-#define base01 #383830
-#define base02 #49483e
-#define base03 #75715e
-#define base04 #a59f85
-#define base05 #f8f8f2
-#define base06 #f5f4f1
-#define base07 #f9f8f5
-#define base08 #f92672
-#define base09 #fd971f
-#define base0A #f4bf75
-#define base0B #a6e22e
-#define base0C #a1efe4
-#define base0D #66d9ef
-#define base0E #ae81ff
-#define base0F #cc6633
+!
 
-xterm*.foreground:   base06
-xterm*.background:   base00
-xterm*.cursorColor:  base05
+! URxvt settings
 
-XTerm*.color0:       base00
-XTerm*.color1:       base08
-XTerm*.color2:       base0B
-XTerm*.color3:       base0A
-XTerm*.color4:       base0D
-XTerm*.color5:       base0E
-XTerm*.color6:       base0C
-XTerm*.color7:       base05
+URxvt.background: #232323
+URxvt.foreground: #A0A0A0
+!
+URxvt.colorBD:    #CFCFCF
+URxvt.colorUL:    #A0A0A0
+URxvt*.colorIT:    #686868
+!
+!!BLK
+URxvt*.color0:     #303030
+URxvt*.color8:     #686868
+!
+!!RED
+URxvt*.color9:     #FFA7DA
+URxvt*.color1:     #D370A3
+!
+!!GRN
+URxvt*.color10:    #A3D572
+URxvt*.color2:     #6D9E3F
+!
+!!BLU
+URxvt*.color12:    #98CBFE
+URxvt*.color4:     #6095C5
+!
+!!YEL
+URxvt*.color11:    #EFBD8B
+URxvt*.color3:     #B58858
+!
+!!CYN
+URxvt*.color14:    #75DAA9
+URxvt*.color6:     #3BA275
+!
+!!MAG
+URxvt*.color13:    #E5B0FF
+URxvt*.color5:     #AC7BDE
+!
+!!WHT
+URxvt*.color7:     #CFCFCF
+URxvt*.color15:    #FFFFFF
 
-XTerm*.color8:       base03
-XTerm*.color9:       base09
-XTerm*.color10:      base01
-XTerm*.color11:      base02
-XTerm*.color12:      base04
-XTerm*.color13:      base06
-XTerm*.color14:      base0F
-XTerm*.color15:      base07
+!urxvt.foreground: 	#E8DFD6
+!urxvt.background: 	#021B21
+!urxvt.cursorColor:  #2E3340
+!urxvt.color0:       #032C36
+!urxvt.color8:       #065F73
+!urxvt.color1:       #C2454E
+!urxvt.color9:       #EF5847
+!urxvt.color2:       #7CBF9E
+!urxvt.color10:      #A2D9B1
+!urxvt.color3:       #8A7A63
+!urxvt.color11:      #BEB090
+!urxvt.color4:       #2E3340
+!urxvt.color12:      #61778D
+!urxvt.color5:       #FF5879
+!urxvt.color13:      #FF99A1
+!urxvt.color6:       #44B5B1
+!urxvt.color14:      #9ED9D8
+!urxvt.color7:       #F2F1B9
+!urxvt.color15:      #F6F6C9
 
-xterm*faceName: Liberation Mono:size=10:antialias=true
+URxvt*font: xft:DejaVuSansMono:size=10
+!URxvt*font: xft:SourceCodePro-Light:size=10
+!URxvt*font: 8x13
+URxvt*letterSpace: -1
+URxvt*lineSpace: -1
+URxvt*geometry: 80x60
+URxvt*loginShell: true
+
+!URxvt*termName: xterm-256color
+!URxvt*termName: xterm
+URxvt*scrollBar: false
+!URxvt*scrollBar_right: false
+!URxvt*scrollBar_floating: false
+!URxvt*fading: 30
+!URxvt*utmpInhibit: false
+!URxvt*urgentOnBell: false
+!URxvt*visualBell: true
+!URxvt*mapAlert: true
+!URxvt*mouseWheelScrollPage: false
+
+!URxvt*saveLines: 0
+!URxvt*buffered: true
+!URxvt*hold: false
+!URxvt*internalBorder:
+!URxvt*print-pipe: cat > $HOME/$(echo urxvt.dump.$(date +'%Y%M%d%H%m%S'))
+
+
+
+! invisibone by baskerville
+!
+! vim: set ft=xdefaults:
+!
+! Xterm settings
+xterm.background: #232323
+xterm.foreground: #A0A0A0
+
+!BLK
+xterm*.color0:     #303030
+xterm*.color8:     #686868
+
+!RED
+xterm*.color9:     #FFA7DA
+xterm*.color1:     #D370A3
+
+!GRN
+xterm*.color10:    #A3D572
+xterm*.color2:     #6D9E3F
+
+!BLU
+xterm*.color12:    #98CBFE
+xterm*.color4:     #6095C5
+
+!YEL
+xterm*.color11:    #EFBD8B
+xterm*.color3:     #B58858
+
+!CYN
+xterm*.color14:    #75DAA9
+xterm*.color6:     #3BA275
+
+!MAG
+xterm*.color13:    #E5B0FF
+xterm*.color5:     #AC7BDE
+
+!WHT
+xterm*.color7:     #CFCFCF
+xterm*.color15:    #FFFFFF
+
+xterm*faceName: Liberation Mono:size=11:antialias=true
 xterm*font: 8x13
 xterm*vt100*geometry: 90x60
+xterm*loginShell: false
